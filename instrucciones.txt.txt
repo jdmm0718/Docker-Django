@@ -22,3 +22,4 @@
         CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"] 
 * docker build -t devrrior/docker-devrrior .
 * docker run -p 8000:8000 devrrior/docker-django
+* docker run -d -v /home/jdmm0718/Platzi-Wsl/Docker-Django/:/app -p 8000:8000 devrrior/docker-django
